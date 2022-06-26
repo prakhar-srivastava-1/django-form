@@ -9,7 +9,7 @@ class ReviewForm(forms.Form):
         widget=forms.TextInput(
             attrs={
                 'placeholder': 'Name',
-                'class': 'form-control-mb-3',
+                'class': 'form-control mb-3',
                 'id': 'name-input'
             }
         )
@@ -21,7 +21,7 @@ class ReviewForm(forms.Form):
         widget=forms.TextInput(
             attrs={
                 'placeholder': 'Email',
-                'class': 'form-control-mb-3',
+                'class': 'form-control mb-3',
                 'id': 'email-input'
             }
         )
